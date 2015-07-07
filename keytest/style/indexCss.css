@@ -1,0 +1,145 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+background:url(../images/index.jpg);
+}
+/*---------------------------------index.html--------------------------------*/
+#content{
+	margin:300px auto 50px;
+	width:900px;
+	font-size:70px;
+	font-family:"KaiTi";
+	text-align:center;
+}
+#content p{
+	margin:0 auto 40px;
+}
+#foot{
+	text-align:center;
+	font-size:16px;
+}
+/*---------------------------输入部分的整体布局-----------------------------*/
+table{
+border:3px solid #999;
+background:#7BA7D6;
+margin:160px auto 0px;
+padding:30px 150px 0;
+height:500px;
+width:900px;
+-webkit-border-radius:15px;
+/*
+-moz-border-radius:15px;
+-moz-border-top-colors:#0F76E3 #76AAE3 #B2C9E3;
+-moz-border-bottom-colors:#0F76E3 #76AAE3 #B2C9E3;
+-moz-border-right-colors:#0F76E3 #76AAE3 #B2C9E3;
+-moz-border-left-colors:#0F76E3 #76AAE3 #B2C9E3;
+*/
+}
+table caption{
+font-size:35px;
+font-family:"FZShuTi";
+color:white;
+}
+table td{
+font-size:25px;
+font-family:"KaiTi";
+font-weight:bold;
+text-align:left;
+padding-left:40px;
+height:55px;
+vertical-align:top;                                        
+}
+table td p{
+font-size:16px;
+color:red;
+}
+table td input{
+height:25px;
+font-size:16px;
+font-weight:bold;
+}
+.sexLabel{
+margin-right:30px;
+}
+table td select{
+height:25px;
+font-size:16px;
+}
+#ageSpan{
+margin-left:15px;
+} 
+/*---------------------------设置提交按钮------------------------------*/
+.submit{text-align:center;}
+#submitBtn{
+	width:100px;
+	height:40px;
+	color:white;
+	font-size:20px;
+	font-family:"KaiTi";
+	background:#3E83D6;
+	cursor:pointer;
+	  border: none;
+	  -webkit-box-sizing:border-box;
+		 -moz-box-sizing:border-box;
+			  box-sizing:border-box;
+	  -webkit-transition-property:font-size,color;
+			  transition-property:font-size,color;
+	  -webkit-transition-duration:4.3s;
+			  transition-duration:4.3s;
+}
+/*-------------------------table左边部分位置的设置------------------------*/
+.left{
+width:230px;
+padding-left:73px;
+}
+/*-----------------------------输入部分的提示------------------------------*/
+.note{
+display:none;
+position:absolute;
+font:16px normal;
+width:200px;
+font-weight:bold;
+}
+#nameNote{
+
+left:1154px;
+top:230px;
+
+/*left:72em;
+top:14em;*/
+}
+#ageNote{
+left:1029px;
+top:365px;
+}
+#phoneNote{
+left:1154px;
+top:430px;
+}
+#emailNote{
+left:1154px;
+top:500px;
+}
+#alipayNote{
+left:1154px;
+top:570px;
+}
+/*-----------------------------finish.html的样式-----------------------------------*/
+.result{
+	margin:320px auto 60px;
+	font:20px 'KaiTi';
+	font-weight:bold;
+	color:red;
+	width:900px;
+	text-align:center;
+}
+.thank{
+	margin:0 auto;
+	font:50px 'KaiTi';
+	font-weight:bold;
+	color:rgb(66, 42, 42);
+	width:800px;
+	text-align:center;
+}
